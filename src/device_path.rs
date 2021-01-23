@@ -1,4 +1,4 @@
-use ffi::base::{
+use crate::base::{
     EFI_GUID,
     EFI_MAC_ADDRESS,
     EFI_PHYSICAL_ADDRESS,

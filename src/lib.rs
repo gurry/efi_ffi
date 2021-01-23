@@ -18,9 +18,9 @@ pub mod boot_services;
 pub mod runtime_services;
 
 pub use self::base::*;
-use ffi::boot_services::EFI_BOOT_SERVICES;
-use ffi::runtime_services::EFI_RUNTIME_SERVICES;
-use ffi::console::{EFI_SIMPLE_TEXT_INPUT_PROTOCOL, EFI_SIMPLE_TEXT_OUTPUT_PROTOCOL};
+use boot_services::EFI_BOOT_SERVICES;
+use runtime_services::EFI_RUNTIME_SERVICES;
+use console::{EFI_SIMPLE_TEXT_INPUT_PROTOCOL, EFI_SIMPLE_TEXT_OUTPUT_PROTOCOL};
 
 pub const EFI_SYSTEM_TABLE_SIGNATURE: UINTN = 0x5453595320494249;
 pub const EFI_2_31_SYSTEM_TABLE_REVISION: UINTN = (2<<16) | (31);

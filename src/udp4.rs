@@ -1,4 +1,4 @@
-use ffi::{
+use crate::{
     base::{
         EFI_IPv4_ADDRESS,
         EFI_STATUS,

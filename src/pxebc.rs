@@ -4,7 +4,7 @@
 
 use core::fmt;
 
-use ffi::base::{
+use crate::base::{
     EFI_GUID, 
     EFI_IP_ADDRESS, 
     EFI_MAC_ADDRESS, 

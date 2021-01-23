@@ -1,4 +1,4 @@
-use ffi::base::*;
+use crate::base::*;
 
 // OUTPUT PROTOCOL
 pub const EFI_SIMPLE_TEXT_OUTPUT_PROTOCOL_GUID: EFI_GUID = EFI_GUID(0x387477c2, 0x69c7, 0x11d2, [0x8e, 0x39, 0x0, 0xa0, 0xc9, 0x69, 0x72, 0x3b]);

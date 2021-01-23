@@ -1,4 +1,4 @@
-use ffi::{
+use crate::{
     base::{
         EFI_STATUS, 
         EFI_GUID,

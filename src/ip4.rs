@@ -1,5 +1,4 @@
-
-use ffi::{
+use crate::{
     managed_network::EFI_MANAGED_NETWORK_CONFIG_DATA,
     simple_network::EFI_SIMPLE_NETWORK_MODE,
     base::{

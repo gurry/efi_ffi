@@ -1,4 +1,4 @@
-use ffi::base::{
+use crate::base::{
     EFI_MAC_ADDRESS,
     UINT8,
     UINT32,

@@ -1,4 +1,4 @@
-use ffi::base::{
+use crate::base::{
     UINT16,
     UINT32,
     BOOLEAN,
