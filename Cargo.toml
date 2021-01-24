@@ -6,7 +6,7 @@ edition = "2018"
 description = "A foreign function interface to UEFI"
 repository = "https://github.com/gurry/efi_ffi"
 readme = "README.md"
-keywords = ["ffi", "bindings", "uefi", "efi", "boot-loader", "os-loader"]
+keywords = ["ffi", "uefi", "efi", "boot-loader", "os-loader"]
 categories = ["api-bindings", "no-std", "os"]
 license = "MIT"
 
