@@ -1,3 +1,4 @@
+#![no_std]
 // This API implements UEFI spec version 2.4
 
 #![allow(non_snake_case)]
