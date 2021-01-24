@@ -1,6 +1,12 @@
 [package]
 name = "efi_ffi"
 version = "0.1.0"
-authors = ["Gurinder Singh <gurinder.singh@1e.com>"]
+authors = ["Gurinder Singh <frederick.the.fool@gmail.com>"]
 edition = "2018"
+description = "A foreign function interface to UEFI"
+repository = "https://github.com/gurry/efi_ffi"
+readme = "README.md"
+keywords = ["ffi", "bindings", "uefi", "efi", "boot-loader", "os-loader"]
+categories = ["api-bindings", "no-std", "os"]
+license = "MIT"
 
