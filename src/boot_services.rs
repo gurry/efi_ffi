@@ -3,9 +3,6 @@ use crate::{
     EFI_SPECIFICATION_VERSION,
     device_path::EFI_DEVICE_PATH_PROTOCOL
 };
-// use base::{Event, Handle, Handles, MemoryType, Status};
-// use guid;
-// use table;
 
 pub const EFI_BOOT_SERVICES_SIGNATURE: UINTN = 0x56524553544f4f42;
 pub const EFI_BOOT_SERVICES_REVISION: UINTN = EFI_SPECIFICATION_VERSION;
